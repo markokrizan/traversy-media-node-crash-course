@@ -1,0 +1,16 @@
+
+console.log("Izvrsavam se po importovanju");
+//console.log(__dirname, __filename);
+
+class Person{
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+
+    greeting(){
+        console.log(`Hi my name is: ${this.name} and i am ${this.age} old!`);
+    }
+}
+
+module.exports = Person;
